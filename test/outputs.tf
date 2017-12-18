@@ -17,3 +17,6 @@ output "enable" {
 output "false" {
   value   = "${module.false.value}"
 }
+output "xyz" {
+  value   = "${module.xyz.value}"
+}

@@ -23,3 +23,7 @@ module "false" {
   source  = "../"
   value   = "false"
 }
+module "xyz" {
+  source  = "../"
+  value   = "xyz"
+}
