@@ -9,6 +9,8 @@ Designed to simplify the use of booleans (especially where 1 variable is tested 
 * Will return 1 for any true value, 0 for anything else.
 * Current true values: true, t, 1, on, enable
 
+Terraform registry: https://registry.terraform.io/modules/devops-workflow/boolean/local
+
 Example: If
 ```hcl
 module "boolean" {
