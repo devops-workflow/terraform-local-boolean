@@ -9,6 +9,10 @@ Designed to simplify the use of booleans (especially where 1 variable is tested 
 * Will return 1 for any true value, 0 for anything else.
 * Current true values: true, t, 1, on, enable
 
+All [devops-workflow](https://registry.terraform.io/search?q=devops-workflow&verified=false) modules will eventually use this.
+
+**NOTE:** `local` refers to this using [locals](https://www.terraform.io/docs/configuration/locals.html) and does not create any resources. It just builds new variables.
+
 Terraform registry: https://registry.terraform.io/modules/devops-workflow/boolean/local
 
 Example: If
