@@ -20,3 +20,9 @@ output "false" {
 output "xyz" {
   value   = "${module.xyz.value}"
 }
+output "t_and_f" {
+  value   = "${module.t_and_f.value}"
+}
+output "t_or_f" {
+  value   = "${module.t_or_f.value}"
+}
