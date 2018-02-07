@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/devops-workflow/terraform-local-boolean.svg?style=svg)](https://circleci.com/gh/devops-workflow/terraform-local-boolean)
+
 Terraform module to simplify and expand boolean use
 ===
 
