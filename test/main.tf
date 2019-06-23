@@ -32,13 +32,3 @@ module "xyz" {
   source = "../"
   value  = "xyz"
 }
-
-module "t_and_f" {
-  source = "../"
-  value  = "${module.true.value && module.false.value}"
-}
-
-module "t_or_f" {
-  source = "../"
-  value  = "${module.true.value || module.false.value}"
-}
