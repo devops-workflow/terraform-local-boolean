@@ -36,7 +36,7 @@ var = "${module.boolean.value ? "true setting" : "false setting"}"
 ### Example: count for enabling/disabling a resource
 
 ```hcl
-module enabled" {
+module "enabled" {
   source  = "devops-workflow/boolean/local"
   value   = "${var.enabled}"
 }
